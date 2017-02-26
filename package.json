@@ -1,0 +1,25 @@
+{
+  "name": "bookmarkdownlinklet",
+  "version": "1.0.0",
+  "description": "A bookmarklet to copy the current page as a markdown formatted link - as in \"[Title](url) - Selection\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bookmarklet",
+    "markdown",
+    "copy"
+  ],
+  "author": "Adam Davis <adam@admataz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bookmarkletify": "^1.0.0",
+    "clipboard": "^1.6.0",
+    "select": "^1.1.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "uglify-js": "^2.7.5"
+  }
+}
