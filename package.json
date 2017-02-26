@@ -14,11 +14,13 @@
   "author": "Adam Davis <adam@admataz.com>",
   "license": "MIT",
   "dependencies": {
-    "bookmarkletify": "^1.0.0",
     "clipboard": "^1.6.0",
     "select": "^1.1.2"
   },
   "devDependencies": {
+    "babel-preset-latest": "^6.22.0",
+    "babelify": "^7.3.0",
+    "bookmarkletify": "^1.0.0",
     "browserify": "^14.1.0",
     "uglify-js": "^2.7.5"
   }
